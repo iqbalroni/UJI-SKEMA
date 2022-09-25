@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.listbar{
+    background-color: #7b14c0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.list-group .list-group-item{
+    background-color: #6b18a3;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.listbar .text{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    color: white;
+}
+
+.listbar hr{
+    height: 1px;
+    background-color: white;
+}
+
+.list-group .list-group-item:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: #6b18a3;
+    padding: 0;
+    margin: 0;
+}

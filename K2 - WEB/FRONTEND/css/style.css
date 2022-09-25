@@ -1,0 +1,159 @@
+*,body{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-cyan{
+    background-color: #00A9A7;
+    color: #ffffff;
+}
+
+.bg-cyan-2{
+    background-color: #C0D72B;
+    color: #ffffff;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color: #C0D72B;
+}
+
+.navbar .nav-item a{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar .active a{
+    color: #C0D72B;
+    font-weight: 600;
+}
+
+.banner .carousel{
+    border-radius: 20px;
+    box-shadow: 3px 4px 20px 1px#d8d8d8;
+}
+
+.jumbotron{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.banner .jumbotron{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.banner .carousel-inner{
+    border-radius: 10px;
+}
+
+.banner .text-banner h3{
+    color: #00A9A7;
+    font-weight: 700;
+}
+
+.banner .card{
+    border: none;
+}
+
+.banner .list-group-item:hover{
+    color: #00A9A7;
+    cursor: pointer;
+}
+
+.carousel-indicators li{
+    background-color: #00A9A7;
+}
+
+.carousel-control-next .carousel-control,
+.carousel-control-prev .carousel-control{
+    opacity: 100%;
+    background-color: #00A9A7;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.banner .carousel-inner img{
+    height: 60vh;
+}
+
+.penjelasan .jumbotron{
+    height:60vh;
+    background-color: #ffffff;
+}
+
+.penjelasan h3{
+    font-weight: bolder;
+    color: #00A9A7;
+}
+
+.btn-cyan{
+    background-color: #00A9A7;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn-cyan:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.btn-cyan-2{
+    background-color: #C0D72B;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn-cyan-2:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.data-vaksin .jumbotron{
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.data-vaksin h3{
+    font-weight: bolder;
+    color: #00A9A7;
+}
+
+.data-vaksin .card{
+    border: none;
+    box-shadow: 1px 1px 15px 0px #d4d4d4;
+    transition: all 0.5s ease-in-out;
+}
+
+.data-vaksin .card:hover{
+    transform: scale(1.1);
+}
+
+.data-vaksin .card-title{
+    color: #00A9A7;
+}
+
+footer{
+    background-color: #00A9A7;
+}
+
+footer h5{
+    color: #C0D72B;
+}
+
+.sidebar{ min-height: 100vh;
+}
+.sidebar .nav-link{
+    color: #ffffff;
+}
+
+.txt-cyan{
+    color: #00A9A7;
+}
+
+.login .jumbotron{
+    height: 100vh;
+}
